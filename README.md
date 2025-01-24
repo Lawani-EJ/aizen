@@ -1,3 +1,62 @@
+<p align="center">
+    <a href="#" style="display: block;" align="center">
+        <img src="https://getstream.io/stream-light.png" alt="sosuke aizen" width="60%" />
+    </a>
+</p>
+
+## Getting started with Strean Phase 1 
+<p align="center">
+    <a href="#" style="display: block;" align="center">
+        <img src="https://i.pinimg.com/originals/0b/6f/35/0b6f35f8b4a78a8b7e0586e44569db74.gif" alt="sosuke aizen" width="60%" />
+    </a>
+</p>
+
+## Project Setup and Installation
+The easiest way to build a Stream Chat React JS application s to create a new project using Vite. 
+Vite allows you create a boilerplate React application that you can run locally with just a few simple commands.
+
+```shell
+C:\Users\USER\Desktop\Stream-ChatApplication>npm create vite@latest
+
+> npx
+> create-vite
+
+√ Project name: ... .
+√ Package name: ... stream-chatapplication
+√ Select a framework: » React
+√ Select a variant: » TypeScript
+
+Scaffolding project in C:\Users\USER\Desktop\Stream-ChatApplication...
+
+Done. Now run:
+
+  npm install
+  npm run dev
+
+
+C:\Users\USER\Desktop\Stream-ChatApplication>npm install
+
+added 181 packages, and audited 182 packages in 3m
+
+43 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+```
+
+## Setup Stream SDK
+
+```shell
+C:\Users\USER\Desktop\Stream-ChatApplication>npm i stream-chat stream-chat-react
+
+added 241 packages, and audited 423 packages in 4m
+
+154 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+```
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
