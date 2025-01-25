@@ -1,13 +1,18 @@
+# What is stream?
+Stream allows us to streamline app development with their feature-rich SDK'S for real-time chat experiences. Which easily tailors the UI and UX to fit business needs, their kits offer customizable high-end UI components.
+
 <p align="center">
     <a href="#" style="display: block;" align="center">
         <img src="https://getstream.io/stream-light.png" alt="sosuke aizen" width="60%" />
     </a>
 </p>
 
+
+
 ## Getting started with Strean Phase 1 
 <p align="center">
     <a href="#" style="display: block;" align="center">
-        <img src="https://i.pinimg.com/originals/0b/6f/35/0b6f35f8b4a78a8b7e0586e44569db74.gif" alt="sosuke aizen" width="60%" />
+        <img src="https://i.pinimg.com/originals/6d/2f/55/6d2f55bb7f6b4d4752e8da6d8ed2202a.gif" alt="sosuke aizen" width="60%" />
     </a>
 </p>
 
@@ -56,7 +61,7 @@ added 241 packages, and audited 423 packages in 4m
 
 found 0 vulnerabilities
 ```
-## Getting started with Strean Phase 1 
+## Getting started with Strean Phase 2 
 <p align="center">
     <a href="#" style="display: block;" align="center">
         <img src="https://giffiles.alphacoders.com/486/48655.gif" alt="sosuke aizen" width="60%" />
