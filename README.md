@@ -56,6 +56,64 @@ added 241 packages, and audited 423 packages in 4m
 
 found 0 vulnerabilities
 ```
+## Getting started with Strean Phase 1 
+<p align="center">
+    <a href="#" style="display: block;" align="center">
+        <img src="https://giffiles.alphacoders.com/486/48655.gif" alt="sosuke aizen" width="60%" />
+    </a>
+</p>
+
+# Setting up the client setup
+Before starting to work with the UI components We have to setup a `StreamChat` client which abstracts (the process of simplifying complex systems by removing unnecessary details and focusing on the most important elements) the API calls into methods, handles and real time events.
+
+<p align="center">
+    <a href="#" style="display: block;" align="center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Data_abstraction_levels.png/220px-Data_abstraction_levels.png" alt="abstraction" width="60%" />
+    </a>
+</p>
+
+Instantanting and making the connection handling easier, we'll prepare a simple hook `useCreateChatClient` we can only use this hook once per application 
+
+# The initial setup for core components 
+Congratulations ✨ Now that our client connection has been established  It's time to build the actual app interactable. 
+I'll be creating a base setup which we'll modyfying and expanding.
+This initial setup will be built using the list of components
+- Chat
+- Channel
+- ChannelHeader
+- MessageInput (with EmojiPicker & emoji autocomplete)
+- MessageList
+- Thread
+- Window
+
+The `chat` and `channel` components are React context providers that pass a variety of values to their children, including UI components, channel state data, and messaging functions.
+The channel type determines the enabled features and permissions associated with this channel. 
+
+```typescript
+<Chat client={client}>
+      <Channel channel={channel}>
+        <Window>
+          <ChannelHeader />
+          <MessageList />
+          <MessageInput />
+        </Window>
+        <Thread />
+      </Channel>
+    </Chat>
+```
+
+Once you have the app running, they'll be the folloeing out-of-box features
+
+![alt text](image.png)
+
+1. User online presence
+2. Typing indicators
+3. Message status indicators (sending, received)
+4. User role configuration
+5. Emoji support (opt-in)
+6. Message read indicators
+7. Threading and message replies
+8. Message reactions
 
 # React + TypeScript + Vite
 
