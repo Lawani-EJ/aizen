@@ -9,7 +9,7 @@ Stream allows us to streamline app development with their feature-rich SDK'S for
 
 
 
-## Getting started with Strean Phase 1 
+## Getting started with Stream Phase 1 
 <p align="center">
     <a href="#" style="display: block;" align="center">
         <img src="https://i.pinimg.com/originals/6d/2f/55/6d2f55bb7f6b4d4752e8da6d8ed2202a.gif" alt="sosuke aizen" width="60%" />
